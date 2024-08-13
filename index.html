@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1x1 Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>1x1 Scheduler</h1>
+        <form id="schedulerForm">
+            <label for="areaOfInterest">Area of Interest:</label>
+            <select id="areaOfInterest" name="areaOfInterest">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+
+            <label for="mentor">Select Mentor (Optional):</label>
+            <select id="mentor" name="mentor">
+                <option value="Any Available Mentor">Any Available Mentor</option>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+
+            <label for="duration">Duration:</label>
+            <select id="duration" name="duration">
+                <option value="30">30 mins</option>
+                <option value="45">45 mins</option>
+                <option value="60">60 mins</option>
+            </select>
+
+            <label for="timeSlots">Available Time Slots:</label>
+            <select id="timeSlots" name="timeSlots">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+
+            <button type="button" id="scheduleBtn">Schedule 1x1</button>
+        </form>
+
+        <div id="payment" style="display: none;">
+            <h2>Payment</h2>
+            <p id="paymentText">The cost for a session will be displayed here.</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 CareerCarve. All Rights Reserved
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

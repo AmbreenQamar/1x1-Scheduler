@@ -1,0 +1,24 @@
+{
+  "areasOfInterest": [
+    "FMCG Sales",
+    "Equity Research",
+    "Digital Marketing",
+    "Organizational Behavior",
+    "Financial Accounting"
+  ],
+  "mentors": {
+    "FMCG Sales": ["Mentor A", "Mentor B"],
+    "Equity Research": ["Mentor C", "Mentor D"],
+    "Digital Marketing": ["Mentor E", "Mentor F"],
+    "Organizational Behavior": ["Mentor G", "Mentor H"],
+    "Financial Accounting": ["Mentor I", "Mentor J"]
+  },
+  "timeSlots": [
+    "7:00 PM - 7:30 PM",
+    "7:30 PM - 8:00 PM",
+    "8:00 PM - 8:30 PM",
+    "8:30 PM - 9:00 PM",
+    "9:00 PM - 9:30 PM",
+    "9:30 PM - 10:00 PM"
+  ]
+}
